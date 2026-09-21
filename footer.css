@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    width: 100%;
+    background-color:  rgb(3, 3, 64);
+    padding: 50px 80px 100px 80px;
+    margin-top: 80px;
+    
+}
+
+.footer-colom{
+    flex: 1;
+}
+
+.footer-colom h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-colom p{
+    font-size: 14px;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}

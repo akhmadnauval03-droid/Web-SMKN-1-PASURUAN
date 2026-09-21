@@ -1,0 +1,191 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    width: 1264px;
+    background-color:  rgb(3, 3, 64);
+    padding: 50px 80px 100px 80px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.footer-colom{
+    flex: 1;
+}
+
+.footer-colom h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-colom p{
+    font-size: 14px;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.profil-singkat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1264px;
+    margin: 40px auto;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.text-profile{
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.text-profile p{
+    margin-bottom: 20px;
+}
+
+.foto-kanan {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-kanan img {
+    width: 100%;          
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 8px;   
+    display: block;
+}
+
+.bg-profil{
+    background-color: white;
+    padding: 100px 0;
+}
+
+.bg-jurusan{
+    background-color: #eef4fa;
+    padding: 100px 20px 150px;
+    width: 1264px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+.posisi-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card-jurusan{
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 20px;
+    width: calc((100% - (30px * 3)) / 4);
+    min-height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow:  0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* .card-jurusan h2{
+    color: navy;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0;  */
+/* } */
+.card-jurusan p{
+    font-size: 18px;
+}
+
+.tkj{
+    color: rgb(41, 124, 240);
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}
+
+.dkv{
+    color: rgb(29, 0, 245);
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}
+
+.rpl{
+    color: purple;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}
+
+.ak{
+    color: red;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}
+
+.mp{
+    color: yellow;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}
+
+.bd{
+    color: orange;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}
+
+.ka{
+    color: rgb(4, 107, 21);
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}
+
+.TEKKIN{
+    color: rgb(66, 250, 66);
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+}

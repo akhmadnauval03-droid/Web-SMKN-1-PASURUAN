@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #f0efef;
+    padding-top: 70px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-loti{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* outline: 1px solid tomato; */
+    align-items: center;
+    background-color: white;
+    
+    
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar-logo {
+    height: 3rem;
+    margin-left: 40px; 
+
+}
+
+.navbar-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    
+}
+
+.navbar-b{
+    font-size: 15px;
+    color: #6d6a6a;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.navbar-group {
+    display: flex;
+    gap: 2rem;
+    /* outline: 1px solid blue; */
+    padding: 1rem;
+    margin-right: 150px;
+    text-decoration: none;
+
+} 
+
+.navbar-a{
+    text-decoration: none;
+}
+
+
+.navbar-item{
+    padding: 0.5rem;
+    /* outline: 1px solid tomato; */
+    text-decoration: none;
+}
+
+.navbar-item:hover{
+    border-bottom: 1px solid black;
+}
+
+.foto{
+    position: relative;
+}
+
+.text-welcome{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.text-welcome h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+
